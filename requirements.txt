@@ -1,0 +1,12 @@
+albumentations
+glob2
+matplotlib
+numpy
+opencv-python
+roifile
+scikit-image
+segmentation-models-pytorch
+tifffile
+torch
+torchvision
+tqdm

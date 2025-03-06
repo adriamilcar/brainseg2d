@@ -1,0 +1,21 @@
+name: brainseg2d
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - cudatoolkit=11.3  # Remove this line if not using a CUDA GPU
+  - pip
+  - opencv  # Use Conda package instead of pip’s opencv-python
+  - scikit-image
+  - tifffile
+  - matplotlib
+  - tqdm
+  - pip:
+      - segmentation-models-pytorch
+      - albumentations
+      - roifile
+      - torchmetrics  # Optional
