@@ -100,8 +100,8 @@ model = train_segmentation_workflow(
 
 #### Input Data Format:
 
-- `<data_folder>`: Folder containing TIFF images, each shaped `(Channels, Height, Width)`.
-- `<masks_folder>`: Corresponding segmentation masks, with filenames prefixed by `MASK_` (e.g., `MASK_img001.tif`).
+- `<images_dir>`: Folder containing TIFF images, each shaped `(Channels, Height, Width)`.
+- `<masks_dir>`: Corresponding segmentation masks, with filenames prefixed by `MASK_` (e.g., `MASK_img001.tif`).
 
 #### Output:
 
