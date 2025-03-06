@@ -24,7 +24,7 @@
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/brainseg2d.git
+git clone https://github.com/adriamilcar/brainseg2d.git
 cd brainseg2d
 ```
 
