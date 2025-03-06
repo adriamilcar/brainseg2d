@@ -100,8 +100,8 @@ model = train_segmentation_workflow(
 
 #### Input Data Format:
 
-- ``: Folder containing TIFF images, each shaped `(Channels, Height, Width)`.
-- ``: Corresponding segmentation masks, with filenames prefixed by `MASK_` (e.g., `MASK_img001.tif`).
+- `<data_folder>`: Folder containing TIFF images, each shaped `(Channels, Height, Width)`.
+- `<masks_folder>`: Corresponding segmentation masks, with filenames prefixed by `MASK_` (e.g., `MASK_img001.tif`).
 
 #### Output:
 
@@ -166,6 +166,7 @@ If you use **BrainSeg2D** in your research, please cite it using the following f
   year = {2025},
   howpublished = {\url{https://github.com/adriamilcar/brainseg2d}},
 }
+```
 
 ---
 
