@@ -1095,7 +1095,7 @@ def predict_unseen_images(unseen_images_dir: str,
         glob.glob(os.path.join(unseen_images_dir, "*.jpg"))
     )
     if not all_image_files:
-        print("❌ No images found in unseen_images_dir.")
+        print("No images found in unseen_images_dir.")
         return
 
     # 6) Inference loop
